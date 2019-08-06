@@ -1,0 +1,3663 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IRAPBase</name>
+    </assembly>
+    <members>
+        <member name="T:IRAPBase.DTO.IRAPCommunityDTO">
+            <summary>
+            社区对象类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.CommunityID">
+            <summary>
+            社区标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.CommunityCode">
+            <summary>
+            社区代码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.DunsCode">
+            <summary>
+            邓白氏码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.RegistYear">
+            <summary>
+            注册年份
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.T1002LeafID">
+            <summary>
+            单位叶标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.T1NodeID">
+            <summary>
+            机构树入口节点标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.T291LeafID_Background">
+            <summary>
+            背景图片标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.Background">
+            <summary>
+            背景图片
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.T291LeafID_TopBanner">
+            <summary>
+            标题栏图片标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.TopBanner">
+            <summary>
+            标题栏图片
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.LoginDivTop">
+            <summary>
+            登录信息框顶部位置
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.LoginDivLeft">
+            <summary>
+            登录信息框左侧位置
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPCommunityDTO.WCFAddress">
+            <summary>
+            应用服务地址
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.SaveAttrInputDTO.AttrType">
+            <summary>
+            属性类型：1- 标识属性 2-目录属性3-检索属性 4-分类属性 5-状态属性 6-瞬态属性 7-一般属性 8-行集（不在这里）
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.SaveAttrInputDTO.AttrIndex">
+            <summary>
+            序号 指定AttrType里，连续且唯一 
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.SaveAttrInputDTO.AttrCode">
+            <summary>
+            对应数据库字段名
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.SaveAttrInputDTO.DisplayName">
+            <summary>
+            显示名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.SaveAttrInputDTO.AttrValue">
+            <summary>
+            要保存的值
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.TreeModelDTO">
+            <summary>
+            返回Tree清单
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.TreeID">
+            <summary>
+            树标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.TreeName">
+            <summary>
+            树名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.TreeType">
+            <summary>
+            树类型
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.DepthLimit">
+            <summary>
+            深度
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.LeafLimit">
+            <summary>
+            叶子数量限制
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.GenAttrTBLName">
+            <summary>
+            一般属性表名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.NodeAttrTBName">
+            <summary>
+            结点属性表名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.PrimaryCodeName">
+            <summary>
+            主标识代码名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.AlternateCodeName">
+            <summary>
+            替代代码名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.ShareToAll">
+            <summary>
+            是否为共享树
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.UniqueEntityCode">
+            <summary>
+            主标识代码是否唯一
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.UniqueNodeCode">
+            <summary>
+            结点代码是否唯一
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.OrderByMode">
+            <summary>
+            排序模式1- Code 2- 名称 3-自定义
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeModelDTO.LastUpdatedTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.TreeClassifyModelDTO">
+            <summary>
+            分类属性DTO
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.IRAPTableColDTO">
+            <summary>
+            数据字典：数据表定义
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.DisPlayName">
+            <summary>
+            显示名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.ColName">
+            <summary>
+            列名
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.Length">
+            <summary>
+            数据长度
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.DataPrecision">
+            <summary>
+             精度
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.DecimalDigits">
+            <summary>
+            小数位数
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.AllowNull">
+            <summary>
+            是否为空
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.IsIdentity">
+            <summary>
+            是否自增列
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.IdentitySeed">
+            <summary>
+            自增种子
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.IdentityInc">
+            <summary>
+            每次自增步长
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.IsRowGuid">
+            <summary>
+            是否为GUID列
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.CollationRule">
+            <summary>
+            排序规则
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.FieldWidth">
+            <summary>
+            显示宽度
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPTableColDTO.MimeType">
+            <summary>
+            html媒体类型
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.TreeLevelDTO">
+            <summary>
+            层次定义
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeLevelDTO.NodeDepth">
+            <summary>
+            深度：结点深度从1开始递增，叶深度为255
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeLevelDTO.LevelName">
+            <summary>
+            层次名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeLevelDTO.DefaultIconID">
+            <summary>
+            默认图标ID
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.TreeLevelDTO.CodingRule">
+            <summary>
+            编码规则
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.IRAPParameterDTO">
+            <summary>
+            系统参数实体类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPParameterDTO.PartitioningKey">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPParameterDTO.ParameterID">
+            <summary>
+            参数标识号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPParameterDTO.ParameterNameID">
+            <summary>
+            参数名称标识号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPParameterDTO.ParameterName">
+            <summary>
+            参数名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPParameterDTO.ParameterValue">
+            <summary>
+            参数值（整型）
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPParameterDTO.ParameterValueStr">
+            <summary>
+            参数值（字符串）
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPParameterDTO.UpdatedBy">
+            <summary>
+            更新者
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPParameterDTO.TimeUpdated">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.AccessibleCSTDTO">
+            <summary>
+            可访问的权限控制点清单DTO
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.TreeClassifyRowDTO">
+            <summary>
+            分类属性行集（与stb063）
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.IRAPError">
+            <summary>
+            IRAP系统通用错误类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.DTO.IRAPError.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.DTO.IRAPError.#ctor(System.Int32,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="errCode">错误代码</param>
+            <param name="errText">错误消息</param>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPError.ErrCode">
+            <summary>
+            错误代码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.IRAPError.ErrText">
+            <summary>
+            错误消息
+            </summary>
+        </member>
+        <member name="T:IRAPBase.DTO.BackLoginInfo">
+            <summary>
+            用户登录返回的DTO
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.UserName">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.NickName">
+            <summary>
+            用户昵称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.SysLogID">
+            <summary>
+            系统登录标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.access_token">
+            <summary>
+            系统登录令牌（36位GUID）
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.LanguageID">
+            <summary>
+            登录语言30-中文 28-繁體中文 0-American English
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.OPhoneNo">
+            <summary>
+            办公电话
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.HPhoneNo">
+            <summary>
+            住宅电话
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.MPhoneNo">
+            <summary>
+            移动电话
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.AgencyName">
+            <summary>
+            机构名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.HostName">
+            <summary>
+            主机名
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.ErrCode">
+            <summary>
+            错误代码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.DTO.BackLoginInfo.ErrText">
+            <summary>
+            错误消息
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.BaseAuxFact">
+            <summary>
+            辅助事实表的基类
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.BaseAuxTran">
+            <summary>
+            辅助交易表的基类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.BaseAuxTran.TransactNo">
+            <summary>
+            交易号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.BaseAuxTran.PartitioningKey">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.BaseCorrAttr">
+            <summary>
+            关联属性
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.BaseRSFact">
+            <summary>
+            行集事实表的基类，任何系统的行集事实表都应继承此类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.BaseRSFact.FactID">
+            <summary>
+            事实编号（通过序列服务器申请）
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.BaseRSFact.PartitioningKey">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.BaseRSFact.WFInstanceID">
+            <summary>
+            工作流实例
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.BaseRSFact.Ordinal">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ErrorMsgTemplateEntity">
+            <summary>
+            错误消息模版
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ErrorMsgTemplateEntity.PartitioningKey">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ErrorMsgTemplateEntity.ErrorID">
+            <summary>
+            错误代码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ErrorMsgTemplateEntity.LanguageID">
+            <summary>
+            语言
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ErrorMsgTemplateEntity.Severity">
+            <summary>
+            验证级别
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ErrorMsgTemplateEntity.SendToMessageBus">
+            <summary>
+            是否发生到消息总线
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ErrorMsgTemplateEntity.Description">
+            <summary>
+            错误消息目标内容
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.GenAttr_T4">
+            <summary>
+            业务操作的一般属性
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.GenAttr_T4.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.IRAPCommunityEntity">
+            <summary>
+            社区基本信息类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.CommunityID">
+            <summary>
+            社区标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.CommunityCode">
+            <summary>
+            社区代码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.DunsCode">
+            <summary>
+            邓白氏码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.RegistYear">
+            <summary>
+            注册年份
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.T1002LeafID">
+            <summary>
+            单位叶标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.T1NodeID">
+            <summary>
+            机构树入口节点标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.T291LeafID_Background">
+            <summary>
+            背景图片标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.T291LeafID_TopBanner">
+            <summary>
+            标题栏图片标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.LoginDivTop">
+            <summary>
+            登录信息框顶部位置
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.LoginDivLeft">
+            <summary>
+            登录信息框左侧位置
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.IRAPCommunityEntity.WCFAddress">
+            <summary>
+            应用服务地址
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.IRAPCommunityMap">
+            <summary>
+            社区基本信息实体类和数据库表的映射关系类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.IRAPCommunityMap.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.IRAPTreeAttrEntity">
+            <summary>
+            自定义界面属性维护
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.IRAPTreeAttrEntity.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelTreeCorrEntityMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.RowSet_T4R1">
+            <summary>
+            业务操作第一行集：操作类型行集
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.RowSet_T4R1.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.RowSet_T4R2">
+            <summary>
+            业务操作第二行集：维度定义
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.RowSet_T4R3">
+            <summary>
+            业务操作第三行集：度量定义
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.OLTPFactEntity">
+            <summary>
+            临时主事实表
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.OLTPFactEntity.#ctor">
+            <summary>
+            构造函数初始化字段
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.FactID">
+            <summary>
+            事实编号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.PartitioningKey">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.TransactNo">
+            <summary>
+            交易号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.IsFixed">
+            <summary>
+            是否固化
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.OpID">
+            <summary>
+            业务操作
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.OpType">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.BusinessDate">
+            <summary>
+            业务发生时间
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code01">
+            <summary>
+            维度代码01
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code02">
+            <summary>
+            维度代码02
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code03">
+            <summary>
+            维度代码03
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code04">
+            <summary>
+            维度代码04
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code05">
+            <summary>
+            维度代码05
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code06">
+            <summary>
+            维度代码06
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code07">
+            <summary>
+            维度代码07
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code08">
+            <summary>
+            维度代码08
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code09">
+            <summary>
+            维度代码09
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Code10">
+            <summary>
+            维度代码10
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Leaf01">
+            <summary>
+            维度标识01
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric01">
+            <summary>
+            度量01
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric02">
+            <summary>
+            度量02
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric03">
+            <summary>
+            度量03
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric04">
+            <summary>
+            度量04
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric05">
+            <summary>
+            度量05
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric06">
+            <summary>
+            度量06
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric07">
+            <summary>
+            度量07
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric08">
+            <summary>
+            度量08
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Metric09">
+            <summary>
+            度量09
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.BChecksum">
+            <summary>
+            度量校验和
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.MeasurementID">
+            <summary>
+            度量关联
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.WFInstanceID">
+            <summary>
+            工作流实例
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.OLTPFactEntity.LinkedFactID">
+            <summary>
+            关联事实编号
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.TransactEntity">
+            <summary>
+            交易表实体
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.TransactEntity.#ctor">
+            <summary>
+            构造函数，初始化字段
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.TransactNo">
+            <summary>
+            交易号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.PartitioningKey">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.OperTime">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.OkayTime">
+            <summary>
+            复核时间
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.RevokeTime">
+            <summary>
+            撤销时间
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.AgencyLeaf1">
+            <summary>
+            操作机构
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.AgencyLeaf2">
+            <summary>
+            复核机构
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.AgencyLeaf3">
+            <summary>
+            撤销机构
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.Operator">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.Checked">
+            <summary>
+            复核人员
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.Revoker">
+            <summary>
+            撤销人员
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.StationID">
+            <summary>
+            站点编号MAC地址
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.IPAddress">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.OpNodes">
+            <summary>
+            业务操作集合（第4棵树负的树叶子，如果多条用逗号 隔开)
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.VoucherNo">
+            <summary>
+            票据号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.VoucherNoEx">
+            <summary>
+            票据号扩展
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.Attached1">
+            <summary>
+            附件张数1
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.Attached2">
+            <summary>
+            附件张数2
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.T16LeafID">
+            <summary>
+            附件张数3
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.WFInstanceID">
+            <summary>
+            工作流实例
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.LinkedTransactNo">
+            <summary>
+            关联交易号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.Status">
+            <summary>
+            交易状态 0-未复核 1-已写事实未复核 3-已复核 4-已撤销5-已固化
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TransactEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ModelTreeClassfiyEntity">
+            <summary>
+            分类属性定义表
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ModelTreeClassfiyEntity.TreeID">
+            <summary>
+            树标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ModelTreeClassfiyEntity.AttrIndex">
+            <summary>
+            属性序号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ModelTreeClassfiyEntity.AttrTreeID">
+            <summary>
+            分类属性树
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ModelTreeClassfiyEntity.AttrNameID">
+            <summary>
+            分类属性名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ModelTreeClassfiyEntity.DicingFilter">
+            <summary>
+            过滤条件
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ModelTreeClassfiyEntity.SaveChangeHistory">
+            <summary>
+            是否保留历史
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ModelTreeClassfiyEntity.NodeDepth">
+            <summary>
+            深度
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.ModelTreeClassfiyEntity.Required">
+            <summary>
+            是否必录项
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ModelTreeClassfiyEntityMap">
+            <summary>
+            映射类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelTreeClassfiyEntityMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ModelTreeEntity">
+            <summary>
+            树模型的实体
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ModelSysTreeEntity">
+            <summary>
+            系统树模型
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ModelSysTreeEntityMap">
+            <summary>
+            系统树模型的映射
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelSysTreeEntityMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ModelBizTreeEntity">
+            <summary>
+            业务树模型
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ModelBizTreeEntityMap">
+            <summary>
+            系统树模型的映射
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelBizTreeEntityMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelTreeGeneralMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelTreeRowSetMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelTreeStatusMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelTreeStatusListMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.ModelTreeTransientMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.NameSpaceEntity">
+            <summary>
+            名称实体类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.NameSpaceEntity.PartitioningKey">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.NameSpaceEntity.NameID">
+            <summary>
+            名称标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.NameSpaceEntity.LanguageID">
+            <summary>
+            语言标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.NameSpaceEntity.BChecksum">
+            <summary>
+            校验和
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.NameSpaceEntity.NameDescription">
+            <summary>
+            名称描述
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.NameSpaceEntity.SearchCode1">
+            <summary>
+            索引代码1
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.NameSpaceEntity.SearchCode2">
+            <summary>
+            索引代码2
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.NameSpaceEntity.HelpMemoryCode">
+            <summary>
+            帮助代码
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.SysNameSpaceEntity">
+            <summary>
+            系统名称实体类
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.BizNameSpaceEntity">
+            <summary>
+            业务名称实体类
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.SysNameSpaceMDMEntity">
+            <summary>
+            主数据名称实体类
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.TreeLevelEntity">
+            <summary>
+            树层次定义实体对象
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Entities.TreeLevelEntityMap.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.TreeStatus">
+            <summary>
+            状态属性实体基类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TreeStatus.PartitioningKey">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TreeStatus.EntityID">
+            <summary>
+            实体标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TreeStatus.Ordinal">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TreeStatus.T5LeafID">
+            <summary>
+            第5棵树叶标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TreeStatus.StatusValue">
+            <summary>
+            状态值
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TreeStatus.ColorRGBValue">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:IRAPBase.Entities.TreeStatus.TransitCtrlValue">
+            <summary>
+            转换控制值
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ETreeSysStatus">
+            <summary>
+            系统状态属性实体
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ETreeBizStatus">
+            <summary>
+            业务状态属性实体
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ETreeSysTranMap">
+            <summary>
+            系统瞬态属性映射
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ETreeSysTran_HMap">
+            <summary>
+            系统瞬态属性历史 映射
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ETreeBizTranMap">
+            <summary>
+            业务瞬态属性映射
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.ETreeBizTran_HMap">
+            <summary>
+            业务瞬态属性历史 映射
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Entities.BaseEntity">
+            <summary>
+            所有数据库实体的基类
+            </summary>
+        </member>
+        <member name="T:IRAPBase.Enums.LogType">
+            <summary>
+            记载日志级别
+            </summary>
+        </member>
+        <member name="F:IRAPBase.Enums.LogType.DEBUG">
+            <summary>
+            调试
+            </summary>
+        </member>
+        <member name="F:IRAPBase.Enums.LogType.INFO">
+            <summary>
+            信息
+            </summary>
+        </member>
+        <member name="F:IRAPBase.Enums.LogType.WARN">
+            <summary>
+            警告
+            </summary>
+        </member>
+        <member name="F:IRAPBase.Enums.LogType.ERROR">
+            <summary>
+            错误
+            </summary>
+        </member>
+        <member name="F:IRAPBase.Enums.LogType.FATAL">
+            <summary>
+            致命
+            </summary>
+        </member>
+        <member name="T:IRAPBase.IRAPAssembly">
+            <summary>
+            分析IRAPBase以及业务程序集的类库
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPAssembly.GetGenAttrClass">
+            <summary>
+            获取一般属性类
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPAssembly.GetGenAttrDict">
+            <summary>
+            获取一般属性表名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPBizModel">
+            <summary>
+            业务模型
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPBizModel.OperEntity">
+            <summary>
+            业务操作实体
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.#ctor(System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="opID"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.#ctor(IRAPBase.IDbContext,System.Int32)">
+            <summary>
+            带数据库上下文的构造函数
+            </summary>
+            <param name="db"></param>
+            <param name="opID"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.GetGenAttr">
+            <summary>
+            获取一般属性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.GetOptypes">
+            <summary>
+            获取操作类型清单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.GetDimMatrix">
+            <summary>
+            获取维度定义清单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.GetMetMaxtric">
+            <summary>
+            获取度量指标定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.GetTransactCols">
+            <summary>
+            获取交易表的定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.GetAuxTranCols">
+            <summary>
+            辅助交易表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.GetRowFact">
+            <summary>
+            返回行集事实的定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.DefineOptypes(System.Int16,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            定义操作类型
+            </summary>
+            <param name="opType">操作类型序号</param>
+            <param name="optypeName">操作类型名</param>
+            <param name="optypeCode">操作类型代码</param>
+            <param name="auxFactTBLName">一般属性表</param>
+            <param name="auxTranTBLName">辅助交易表</param>
+            <param name="oltpTempFactTBLName">临时业务流水表</param>
+            <param name="oltpFixedFactTBLName">固化业务流水表</param>
+            <param name="isValid">是否有效</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.DeleteOpTypes(System.Int16)">
+            <summary>
+            操作类型
+            </summary>
+            <param name="opType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.DefineDimMatrix(System.Int32,System.Int16,System.String)">
+            <summary>
+            定义事实表维度
+            </summary>
+            <param name="ordinal">维度序号</param>
+            <param name="dimTreeID">维度树标识</param>
+            <param name="dimName">维度名称（可为空，为空则用树的名字)</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.DeleteDimMatrix(System.Int32)">
+            <summary>
+            删除维度定义
+            </summary>
+            <param name="ordinal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.DefineMetMatric(System.Int32,System.String,System.Byte,System.String)">
+            <summary>
+            定义度量
+            </summary>
+            <param name="ordinal"> 序号</param>
+            <param name="MatName">名称</param>
+            <param name="scale">精度（放大数量级）</param>
+            <param name="unitOfMeasure">单位</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizModel.DeleteMetMatric(System.Int32)">
+            <summary>
+            删除度量定义
+            </summary>
+            <param name="ordinal">度量序号</param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPCommunitySet">
+            <summary>
+            社区对象集维护类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPCommunitySet.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPCommunitySet.GetUserInfoWithSysLogID(System.Int32,System.Int64,IRAPBase.Entities.LoginEntity@)">
+            <summary>
+            根据社区标识和系统登录标识获取登录用户信息
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <param name="loginInfo">输出参数，登录用户信息</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPCommunitySet.Add(System.Int32,System.String,System.String,System.Int16,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int64)">
+            <summary>
+            新增一个社区
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="communityCode">社区代码</param>
+            <param name="dunsCode">企业邓白氏码</param>
+            <param name="registerYear">社区注册年份</param>
+            <param name="t1002LeafID">公司叶标识</param>
+            <param name="t1NodeID">机构入口节点标识</param>
+            <param name="t291LeafID_Background">背景图片叶标识</param>
+            <param name="t291LeafID_TopBanner">标题图片叶标识</param>
+            <param name="loginDivTop">登录框顶部位置</param>
+            <param name="loginDivLeft">登录框左侧位置</param>
+            <param name="wcfAddress">WCF应用服务地址（已弃用）</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="T:IRAPBase.IRAPErrorSet">
+            <summary>
+            IRAP报错模版
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPErrorSet.InstanceID">
+            <summary>
+            单粒类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPErrorSet.ErrTextDesc(System.Int32,System.Int32,System.String[])">
+            <summary>
+            获取错误内容
+            </summary>
+            <param name="errCode"></param>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPTreeModel">
+            <summary>
+            用于定义和维护树的8大属性：1-标识 2-目录-3检索 4-分类 5-状态 6-瞬态 7-一般  8-行集
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeModel.TreeEntity">
+            <summary>
+            获取此树的实体对象，可直接对其进行修改
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeModel.AttrTBLName">
+            <summary>
+            获取或设置一般属性表名(设置后要调用SaveChanges保存)
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.#ctor(System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="treeID">树标识</param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.GetClassify">
+            <summary>
+            获取分类属性定义清单
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.GetTransient">
+            <summary>
+            获取瞬态属性定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.GetStatus">
+            <summary>
+            获取状态属性定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.GetStatusList(System.Int32)">
+            <summary>
+            获取第n状态属性定义清单
+            </summary>
+            <param name="ordinal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DefineClassify(System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            定义分类属性
+            </summary>
+            <param name="attrindex">分类属性序号</param>
+            <param name="attrTreeID">分类属性树标识</param>
+            <param name="attrName">分类属性名称</param>
+            <param name="forceModify">如果已存在是否强制修改</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DeleteClassify(System.Int32)">
+            <summary>
+            删除指定分类属性定义
+            </summary>
+            <param name="attrindex">属性序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DefineTransient(System.Int32,System.String,System.String,System.Byte,System.Boolean,System.Boolean)">
+            <summary>
+            定义瞬态属性
+            </summary>
+            <param name="attrindex">瞬态属性序号</param>
+            <param name="statName">瞬态属性名</param>
+            <param name="unitOfMeasure">度量单位</param>
+            <param name="scale">放大数量级</param>
+            <param name="protect">属性维护时是否可修改</param>
+            <param name="forceModify">强制修改定义</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DeleteTransient(System.Byte)">
+            <summary>
+            删除瞬态属性定义
+            </summary>
+            <param name="attrIndex">瞬态属性序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DefineStatus(System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            定义状态属性
+            </summary>
+            <param name="stateIndex">状态属性序号</param>
+            <param name="t5LeafID">第五课树叶标识</param>
+            <param name="protect">维护属性时是否能修改</param>
+            <param name="forceModify">如已存在强制修改</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DeleteStatus(System.Byte)">
+            <summary>
+            删除状态属性
+            </summary>
+            <param name="attrIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DefineStatusList(System.Int32,System.Int32,System.Collections.Generic.List{IRAPBase.DTO.TreeStatusModelRowDTO})">
+            <summary>
+            定义状态属性清单
+            </summary>
+            <param name="t5LeafID">状态叶标识</param>
+            <param name="ordinal">状态属性序号</param>
+            <param name="list">清单(删除后重新插入)</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.GetGenAttrTBLCols">
+            <summary>
+            获取一般属性表的数据字典
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.GetRowSet">
+            <summary>
+            获取行集属性定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.GetRowSetCols(System.Int32)">
+            <summary>
+            获取第n行集属性数据字典
+            </summary>
+            <param name="ordinal">第n行属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DefineRowSet(System.Byte,System.String,System.Boolean,System.String)">
+            <summary>
+            定义行集属性
+            </summary>
+            <param name="attrIndex">行集属性序号</param>
+            <param name="attrName">行集属性名称</param>
+            <param name="rsAttrTBLName">行集属性表名</param>
+            <param name="protect">是否保护(在界面中是否允许修改内容)</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DeleteRowSetDefine(System.Int32)">
+            <summary>
+            删除行集属性的定义
+            </summary>
+            <param name="attrIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.GetTreeLevel">
+            <summary>
+            获取树的层次定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DefineTreeLevel(System.Byte,System.String,System.String,System.Int32)">
+            <summary>
+            定义树的层次
+            </summary>
+            <param name="nodeDepth">结点深度：结点从1开始递增，叶深度为255</param>
+            <param name="levelName">层次名称</param>
+            <param name="defaultIconID">默认图标ID</param>
+            <param name="codingRule">编码规则</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.DeleteTreeLevel(System.Int32)">
+            <summary>
+            删除树的层次定义
+            </summary>
+            <param name="nodeDepth"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.SetAlternateCodeName(System.String)">
+            <summary>
+            设置替代代码名称
+            </summary>
+            <param name="name">输入名称</param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.SetEntityCodeName(System.String)">
+            <summary>
+            设置实体属性名称
+            </summary>
+            <param name="name">输入名称</param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModel.SaveChanges">
+            <summary>
+            实体修改后提交的接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPWorkbench">
+            <summary>
+            所有WebAPI接口类继承此类，目的是为子类提供常用的序列化、验收令牌等便利的方法 MarshalByRefObject
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPWorkbench.CommunityID">
+            <summary>
+            当前社区
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPWorkbench.DB">
+            <summary>
+            //当前数据库连接上下文
+            </summary>
+        </member>
+        <member name="F:IRAPBase.IRAPWorkbench.BackResult">
+            <summary>
+            使用动态类型返回结果
+            </summary>
+        </member>
+        <member name="F:IRAPBase.IRAPWorkbench.APIBag">
+            <summary>
+            返回值
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.#ctor">
+            <summary>
+            默认创建IRAPMDM的数据库连接
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.BackJson(System.Int32,System.String)">
+            <summary>
+            返回Json错误
+            </summary>
+            <param name="errCode"></param>
+            <param name="errText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.UsingContext(System.String)">
+            <summary>
+            切换数据库
+            </summary>
+            <param name="dbName">数据库名，例如：IRAP,IRAPMDM</param>
+            <returns>返回数据库上下文</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.UsingContext(System.String,System.Int32)">
+            <summary>
+            切换数据库(带社区)
+            </summary>
+            <param name="dbName">数据库名</param>
+            <param name="communityID">社区</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.CreateDBContext(System.String)">
+            <summary>
+            创建新的数据库上下文
+            </summary>
+            <param name="dbName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetIRAPTreeBase(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取一棵树，主数据库用这个类就可以了
+            </summary>
+            <param name="communityID">社区</param>
+            <param name="treeID">树标识</param>
+            <param name="leafID">叶标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetIRAPTreeBase(System.Int32,System.Int32)">
+            <summary>
+            获取一棵树，主数据库用这个类就可以了（默认社区）
+            </summary>
+            <param name="treeID"></param>
+            <param name="leafID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetIRAPTreeSet(System.Int32,System.Int32)">
+            <summary>
+            获取IRAPTreeSet对象（指定社区共享上下文）
+            </summary>
+            <param name="communityID"></param>
+            <param name="treeID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetIRAPTreeSet(System.Int32)">
+            <summary>
+            获取IRAPTreeSet对象 
+            </summary>
+            <param name="treeID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetIRAPOperBase(System.String,System.Int32)">
+            <summary>
+            业务操作类：申请交易号，保存事实，查询事实等
+            </summary>
+            <param name="access_token"></param>
+            <param name="opID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetObjectFromJson(System.String)">
+            <summary>
+            把输入参数反序列化为动态类型，仅适用于简单的json（不包括嵌套）复杂的请使用DeserializeObject方法
+            </summary>
+            <param name="inParam"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetDict(System.String)">
+            <summary>
+            把输入json参数解析为数组
+            </summary>
+            <param name="json">输入的json字符串</param>
+            <returns>返回数组对象</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.DeserializeObject``1(System.String)">
+            <summary>
+            把前台传进来的复杂json（带嵌套的）类型反序列化为复杂对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="inparam"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetJArray(System.String)">
+            <summary>
+            解析Json数组:格式举例: [{ "ID":1},{"ID":2}]
+            </summary>
+            <param name="inputJson">输入的json参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetJObject(System.String)">
+            <summary>
+            获取Json对象：格式举例: {Data:"good",List:[{"ID":1},{"ID":1}]}
+            </summary>
+            <param name="inputJson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.ToJson(System.Object)">
+            <summary>
+            把动态类型序列化为json数组
+            </summary>
+            <param name="backRes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.ToJson">
+            <summary>
+            把基类的属性BackResult属性（动态类型）序列化为数组
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.VerifyToken(System.String)">
+            <summary>
+            验证令牌（这部分已有框架完成）这里仅供参考
+            </summary>
+            <param name="access_token">令牌</param>
+            <returns>通用错误</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetLoginInfo(System.String)">
+            <summary>
+            根据令牌返回登录信息
+            </summary>
+            <param name="access_token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetCommunityID(System.String)">
+            <summary>
+            根据令牌获取社区标识
+            </summary>
+            <param name="access_token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetRepository``1">
+            <summary>
+            获取指定表集合
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetTableSet``1">
+            <summary>
+            在当前数据库上下文中获取数据库实体
+            </summary>
+            <typeparam name="T">数据库实体泛型</typeparam>
+            <returns>数据库实体集合</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.SqlQuery``1(System.String,System.Object[])">
+            <summary>
+            执行个性化sql
+            </summary>
+            <typeparam name="T">指定类型</typeparam>
+            <param name="sqlQueryCommand">原始sql</param>
+            <param name="parameters">参数值 ，也可以是System.Data.SqlClient.SqlParameter类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.SqlQuery(System.Type,System.String,System.Object[])">
+            <summary>
+            使用自定义SQL语句查询
+            </summary>
+            <param name="t">实体类型</param>
+            <param name="sqlQueryCommand">自定义sql</param>
+            <param name="parameters">参数列表用逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.ExecuteSqlNonQuery``1(System.String,System.Object[])">
+            <summary>  
+            执行存储过程（语法与数据库相关，尽量少用，否则不能实现跨数据库）
+            参见https://www.cnblogs.com/xchit/p/3334782.html
+            </summary>  
+            <param name="commandText">SQL命令</param>  
+            <param name="parameters">参数可使用System.Data.SqlClient.SqlParameter类型</param>  
+            <returns>返回参数清单System.Data.SqlClient.SqlParameter []</returns>  
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.ExecuteSqlCommand(System.String,System.Object[])">
+            <summary>
+            执行命令（同步）
+            </summary>
+            <param name="sqlCommand">sql语句可带参数</param>
+            <param name="parameters">参数值，可使用System.Data.SqlClient.SqlParameter类型</param>
+            <returns>影响的行数</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.ExecuteSqlCommandAsync(System.String,System.Object[])">
+            <summary>
+            执行命令（异步）
+            </summary>
+            <param name="sqlCommand">sql语句可带参数</param>
+            <param name="parameters">参数值，可使用System.Data.SqlClient.SqlParameter类型</param>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetDataTable(System.String,System.Object[])">
+            <summary>
+            使用原始sql语句生成DataTable（仅支持SQLServer)
+            </summary>
+            <param name="sql">sql语句</param>
+            <param name="parameters">参数列表</param>
+            <returns>返回DataTable</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.BeginTransaction">
+            <summary>
+            开启一个新事务
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.SaveChangeAndCommit">
+            <summary>
+            对默认数据库连接进行提交
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.SaveChanges">
+            <summary>
+            保存变化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.GetSequenceValue(System.String,System.Int32)">
+            <summary>
+            申请序列号
+            </summary>
+            <param name="seqName">序列名称</param>
+            <param name="cnt">申请数量</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.ErrorProcess(System.Exception)">
+            <summary>
+            对异常错误的处理
+            </summary>
+            <param name="err">异常</param>
+            <returns>json字符串，形如：{"ErrCode":9999,"ErrText":"异常错误！"}</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPWorkbench.DBNow">
+            <summary>
+            获取数据库时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.Log.WriteLocalMsg(System.Int32,System.String)">
+            <summary>
+            写本地文件日志
+            </summary>
+            <param name="threadID"></param>
+            <param name="ErrText"></param>
+        </member>
+        <member name="P:IRAPBase.Log.Instance">
+            <summary>
+            静态方法获取实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.Log.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.Log.WriteMsg``1(IRAPBase.Enums.LogType,System.String)">
+            <summary>
+            通过NLog写本地文件日志
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="msg"></param>
+            <param name="logType"></param>
+        </member>
+        <member name="M:IRAPBase.Log.WriteMsg``1(IRAPBase.Enums.LogType,System.Object,System.Exception)">
+            <summary>
+            写日志可跟踪异常位置
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="logType"></param>
+            <param name="msg"></param>
+            <param name="err"></param>
+        </member>
+        <member name="M:IRAPBase.Serialize.JsonHelper.ToJson2(System.Object)">
+            <summary>
+            JSON序列化
+            </summary>
+            <param name="obj">源对象</param>
+            <returns>json数据格式</returns>
+        </member>
+        <member name="M:IRAPBase.Serialize.JsonHelper.ToJson(System.String[])">
+            <summary>
+            将字符串数组转换为json数据格式:["value1","value2",...]
+            </summary>
+            <param name="strs">字符串数组</param>
+            <returns>json数据格式</returns>
+        </member>
+        <member name="M:IRAPBase.Serialize.JsonHelper.ToJson(System.Data.DataTable)">
+            <summary>
+            将DataTable数据源转换为json数据格式:[{"ColumnName":"ColumnValue",...},{"ColumnName":"ColumnValue",...},...]
+            </summary>
+            <param name="dt">DataTable数据源</param>
+            <returns>json数据格式</returns>
+        </member>
+        <member name="M:IRAPBase.Serialize.JsonHelper.ConvertToDateTimeString(System.String)">
+            <summary>
+            将"\/Date(673286400000)\/"Json时间格式替换"yyyy-MM-dd HH:mm:ss"格式的字符串
+            </summary>
+            <param name="jsonDateTimeString">"\/Date(673286400000)\/"Json时间格式</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.Serialize.ObjectCopy.Mapper``1(IRAPBase.Entities.BaseEntity)">
+            <summary>
+            传入类型B的对象b，将b与a相同名称的值进行赋值给创建的a中
+            </summary>
+            <typeparam name="A">类型A</typeparam>
+            <typeparam name="B">类型B</typeparam>
+            <param name="b">类型为B的参数b</param>
+            <returns>拷贝b中相同属性的值的a</returns>
+        </member>
+        <member name="T:IRAPBase.DBContextFactory">
+            <summary>
+            创建数据库连接上下文的工厂类, 这是一个单例类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.DBContextFactory.CreateContext(System.String)">
+            <summary>
+            创建数据库连接上下文
+            </summary>
+            <param name="contextName">
+            上下文名称，数据库类型是 SQLServer 时，必须有
+            </param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IIRAPNamespaceSet">
+            <summary>
+            IRAP 命名空间集接口
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IIRAPNamespaceSet.GetNameID(System.Int32,System.String,System.Int32)">
+            <summary>
+            查找指定名称的名称标识，如果指定名称不存在则新增
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameDescription">名称</param>
+            <param name="languageID">语言标识 (默认: 30 简体中文)</param>
+            <returns>名称标识</returns>
+        </member>
+        <member name="M:IRAPBase.IIRAPNamespaceSet.Add(System.Int32,System.String,System.Int32,System.Int32@)">
+            <summary>
+            新增一个名称，并返回名称标识
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameDescription">名称</param>
+            <param name="languageID">语言标识 (默认: 30 简体中文) </param>
+            <param name="nameID">名称标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IIRAPNamespaceSet.Modify(IRAPBase.Entities.NameSpaceEntity)">
+            <summary>
+            修改名称
+            </summary>
+            <param name="src">名称对象</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IIRAPNamespaceSet.Delete(System.Int32,System.Int32,System.Byte)">
+            <summary>
+            删除指定的名称
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameID">名称标识</param>
+            <param name="languageID">语言标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IIRAPNamespaceSet.Delete(IRAPBase.Entities.NameSpaceEntity)">
+            <summary>
+            删除指定的名称
+            </summary>
+            <param name="src">名称实体对象</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IIRAPNamespaceSet.Get(System.Int32,System.Int32,System.Byte)">
+            <summary>
+            获取指定名称标识和语言标识的名称实体对象
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameID">名称标识</param>
+            <param name="languageID">语言标识</param>
+            <returns>NameSpaceEntity对象，如果未获得，则返回null</returns>
+        </member>
+        <member name="M:IRAPBase.IIRAPNamespaceSet.Get(System.Int32,System.Byte)">
+            <summary>
+            获取指定语言标识的名称实体对象列表
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="languageID">语言标识</param>
+            <returns>NameSpaceEntity对象集，如果未获得，则该集合中的对象数为0</returns>
+        </member>
+        <member name="T:IRAPBase.IRAPNamespaceSetFactory">
+            <summary>
+            IRAP 命名空间集对象创建工厂
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPNamespaceSetFactory.CreatInstance(IRAPBase.Enums.NamespaceType)">
+            <summary>
+            创建一个具有 IIRAPNamespaceSet 接口的实例，返回
+            该实例的 IIRAPNamespaceSet 接口
+            </summary>
+            <param name="namespaceType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPSysNamespaceSet">
+            <summary>
+            IRAP数据库中的003名称集合类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.GetRepository">
+            <summary>
+            生成 SysNameSpaceEntity 的资源库 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.FindNameID(System.Int32,System.String,System.Int32)">
+            <summary>
+            查找指定名称的名称标识
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameDescription">名称</param>
+            <param name="languageID">语言标识 (默认: 30 简体中文)</param>
+            <returns>名称标识</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.GetNameID(System.Int32,System.String,System.Int32)">
+            <summary>
+            查找指定名称的名称标识
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameDescription">名称</param>
+            <param name="languageID">语言标识 (默认: 30 简体中文)</param>
+            <returns>名称标识</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.Add(System.Int32,System.String,System.Int32,System.Int32@)">
+            <summary>
+            新增一个名称，并返回名称标识
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameDescription">名称</param>
+            <param name="languageID">语言标识 (默认: 30 简体中文) </param>
+            <param name="nameID">名称标识（返回）</param>
+            <returns>名称标识</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.Modify(IRAPBase.Entities.NameSpaceEntity)">
+            <summary>
+            将命名空间实体更新数据库中已存在的记录内容
+            </summary>
+            <param name="src"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.Delete(System.Int32,System.Int32,System.Byte)">
+            <summary>
+            删除指定名称标识的命名
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameID"></param>
+            <param name="languageID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.Delete(IRAPBase.Entities.NameSpaceEntity)">
+            <summary>
+            删除指定命名空间实体对应数据库中的记录
+            </summary>
+            <param name="src"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.Get(System.Int32,System.Int32,System.Byte)">
+            <summary>
+            获取命名空间实体
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameID"></param>
+            <param name="languageID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSysNamespaceSet.Get(System.Int32,System.Byte)">
+            <summary>
+            获取命名空间实体集
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="languageID"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPBizNamespaceSet">
+            <summary>
+            IRAPMDM数据库中的004表名称集合类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPBizNamespaceSet.GetRepository">
+            <summary>
+            生成 BizNameSpaceEntity 的资源库 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizNamespaceSet.FindNameID(System.Int32,System.String,System.Int32)">
+            <summary>
+            查找指定名称的名称标识
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameDescription">名称</param>
+            <param name="languageID">语言标识 (默认: 30 简体中文)</param>
+            <returns>名称标识</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizNamespaceSet.GetNameID(System.Int32,System.String,System.Int32)">
+            <summary>
+            查找指定名称的名称标识，若不存在则新增该名称。
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameDescription">名称</param>
+            <param name="languageID">语言标识 (默认: 30 简体中文)</param>
+            <returns>名称标识</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPBizNamespaceSet.Add(System.Int32,System.String,System.Int32,System.Int32@)">
+            <summary>
+            新增一个名称，并返回名称标识
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="nameDescription">名称</param>
+            <param name="languageID">语言标识 (默认: 30 简体中文) </param>
+            <param name="nameID">名称标识（返回）</param>
+            <returns>名称标识</returns>
+        </member>
+        <member name="T:IRAPBase.IRAPOperBase">
+            <summary>
+            业务操作基础类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.TableSet(IRAPBase.Entities.BaseEntity)">
+            <summary>
+            根据实体类型获取存储对象DbSet,以便操作实体（增删改查）
+            </summary>
+            <param name="t">实体</param>
+            <returns>表集合DbSet对象</returns>
+        </member>
+        <member name="P:IRAPBase.IRAPOperBase.CommunityID">
+            <summary>
+            社区标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPOperBase.TransPK">
+            <summary>
+            交易日志、辅助交易表分区键值
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPOperBase.HisFactPK">
+            <summary>
+            临时事实、固化事实、作废事实分区键值，以及辅助事实FactPartitioningKey
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPOperBase.RSFactPK">
+            <summary>
+            行集事实分区键值
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.AuxFactPK(System.Int32)">
+            <summary>
+            辅助事实表中PartitioningKey字段
+            </summary>
+            <param name="dimLeafID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            开启业务操作的基础
+            </summary>
+            <param name="dbName"></param>
+            <param name="access_token"></param>
+            <param name="opID"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.#ctor(IRAPBase.IDbContext,System.String,System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="db">数据库上下文</param>
+            <param name="access_token">登录令牌</param>
+            <param name="opID">业务操作</param>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetFactNo(System.Int32)">
+            <summary>
+            申请事实编号，如有错误会抛出异常，请捕捉异常
+            </summary>
+            <param name="cnt">申请数量</param>
+            <returns>事实编号</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetTransactNo(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            申请交易号
+            </summary>
+            <param name="cnt">申请数量</param>
+            <param name="remark">交易备注</param>
+            <param name="opNodes">操作类型清单,多个用逗号隔开</param>
+            <param name="voucherNo">票据号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.SaveTempFact(IRAPBase.Entities.FactEntity)">
+            <summary>
+            保存临时主事实
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetFixedFact(System.Int64)">
+            <summary>
+            固化事实
+            </summary>
+            <param name="factID">事实编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetTempFact(System.Int64,System.Int32)">
+            <summary>
+            临时事实
+            </summary>
+            <param name="factID"></param>
+            <param name="opID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetTempFactList(System.Int64,System.Int32[])">
+            <summary>
+            获取临时事实
+            </summary>
+            <param name="transactNo"></param>
+            <param name="opIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetTempFactList(System.Linq.Expressions.Expression{System.Func{IRAPBase.Entities.FactEntity,System.Boolean}})">
+            <summary>
+            根据正则表达式获取事实表
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetTempFactListByLinkFactID(System.Int64,System.Int32[])">
+            <summary>
+            根据LinkFactID获取
+            </summary>
+            <param name="linkFactID"></param>
+            <param name="opIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.SaveAuxFact(IRAPBase.Entities.BaseAuxFact)">
+            <summary>
+            保存辅助事实
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.SaveRSFact(System.Collections.Generic.List{IRAPBase.Entities.BaseRSFact})">
+            <summary>
+            保存行集事实
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.SaveUTBOrLog(IRAPBase.Entities.BaseEntity)">
+            <summary>
+            保存UTB或log表（单条记录）
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.SaveUTBOrLog(System.Collections.Generic.List{IRAPBase.Entities.BaseEntity})">
+            <summary>
+            保存UTB或log表（多条记录）
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.UnCheckTransact(System.Int64,System.Boolean)">
+            <summary>
+            撤销交易
+            </summary>
+            <param name="transactNo">交易号</param>
+            <param name="deleteFact">是否删除事实(默认是)</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.CheckTransact(System.Int64)">
+            <summary>
+            复核交易
+            </summary>
+            <param name="transactNo"></param>
+            <param name="userCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.DeleteToRecycle(System.Int64)">
+            <summary>
+            交易撤销到回收站
+            </summary>
+            <param name="transactNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.DeleteToRecycleByFactID(System.Int64)">
+            <summary>
+            删除主事实
+            </summary>
+            <param name="factID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.SaveChanges">
+            <summary>
+            提交变更到数据库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.BeginTransaction">
+            <summary>
+            开启一个新事务
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.Commit">
+            <summary>
+            对默认数据库连接进行提交
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.RollBack">
+            <summary>
+            回滚事务
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetEntities``1">
+            <summary>
+            查询所有表
+            </summary>
+            <typeparam name="T">要查询的实体类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetTransact(IRAPBase.IDbContext,System.Int32,System.Int64)">
+            <summary>
+            查询交易实体（最近两年）
+            </summary>
+            <param name="db"></param>
+            <param name="communityID"></param>
+            <param name="transactNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetTransactList(IRAPBase.IDbContext,System.Int32)">
+            <summary>
+            查询交易实体清单，外面再根据其他条件过滤(限定最近两年)
+            </summary>
+            <param name="db">数据库上下文</param>
+            <param name="communityID">社区</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.PartitioningKey(System.Int32,System.Int32)">
+            <summary>
+            计算PK值
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="treeID">树标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetTransPK(System.Int32,System.Int32)">
+            <summary>
+            交易日志、辅助交易表分区键值
+            </summary>
+            <param name="communityID"></param>
+            <param name="yearID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetFactPK(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            临时事实、固化事实、作废事实分区键值，以及辅助事实FactPartitioningKey
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetRSFactPK(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            行集事实分区键值
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPOperBase.GetAuxFactPK(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            辅助事实表中PartitioningKey字段
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="yearID">4位年份</param>
+            <param name="dimLeafID">维度标识</param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPParameterSet">
+            <summary>
+            IRAP 参数集维护类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.GetUserInfoWithSysLogID(System.Int32,System.Int64,IRAPBase.Entities.LoginEntity@)">
+            <summary>
+            根据社区标识和系统登录标识获取登录用户信息
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <param name="loginInfo">输出参数，登录用户信息</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.GetGlobal(System.Int32,System.Int64)">
+            <summary>
+            获取 IRAP 全局参数表
+            </summary>
+            <param name="communityID">登录的社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>系统参数实体对象集合</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.GetByCommunityID(System.Int32,System.Int32,System.Int64)">
+            <summary>
+            获取社区相关的参数表
+            </summary>
+            <param name="communityIDByParam">参数所属的社区号</param>
+            <param name="communityID">登录的社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>系统参数实体对象集合</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.GetByParamID(System.Int32,System.Int32[],System.Int32,System.Int64)">
+            <summary>
+            获取指定参数 ID 列表的参数表
+            </summary>
+            <param name="communityIDByParam">参数所属的社区号</param>
+            <param name="communityID">社区标识</param>
+            <param name="ids">参数 ID 列表</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>系统参数实体对象集合</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.GetByParamID(System.Int32[],System.Int32,System.Int64)">
+            <summary>
+            获取指定参数 ID 列表的全局参数表
+            </summary>
+            <param name="ids">参数 ID 列表</param>
+            <param name="communityID">登录的社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>系统参数实体对象集合</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.Add(System.Int32,IRAPBase.DTO.IRAPParameterDTO,System.Int64)">
+            <summary>
+            新增一个社区相关的参数
+            </summary>
+            <remarks>本方法只能新增社区标识非0的参数，并且新增参数的标识必须包含在全局参数标识内</remarks>
+            <param name="communityID">社区标识</param>
+            <param name="src">参数 DTO 对象</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.Add(System.Int32,System.Byte,System.Int32,System.String,System.Int64)">
+            <summary>
+            新增一个社区相关的参数
+            </summary>
+            <remarks>本方法只能新增社区标识非0的参数，并且新增参数的标识必须包含在全局参数标识内</remarks>
+            <param name="communityID">社区标识</param>
+            <param name="paramID">指定社区新增参数的全局参数标识</param>
+            <param name="paramValue">参数值（整型）</param>
+            <param name="paramStrValue">参数值（字符串）</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.Modify(System.Int32,System.Byte,System.Int32,System.Int64)">
+            <summary>
+            更新参数值
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="paramID">参数标识</param>
+            <param name="paramValue">参数值（整型）</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.Modify(System.Int32,System.Byte,System.String,System.Int32,System.Int64)">
+            <summary>
+            更新参数值
+            </summary>
+            <param name="communityIDByParam">参数所在社区标识</param>
+            <param name="paramID">参数标识</param>
+            <param name="paramStrValue">参数值（字符串）</param>
+            <param name="communityID">登录的社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.Modify(System.Int32,IRAPBase.DTO.IRAPParameterDTO,System.Int32,System.Int64)">
+            <summary>
+            更新参数值
+            </summary>
+            <remarks>本方法用于同时更新参数整型值和字符串值</remarks>
+            <param name="communityIDByParam">参数的社区标识</param>
+            <param name="param">参数DTO对象</param>
+            <param name="communityID">登录的社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.Delete(System.Int32,IRAPBase.DTO.IRAPParameterDTO,System.Int32,System.Int64)">
+            <summary>
+            删除一个指定的系统参数
+            </summary>
+            <remarks>只能删除社区相关的参数，不能删除全局参数</remarks>
+            <param name="communityIDByParam">社区标识</param>
+            <param name="param">参数对象</param>
+            <param name="communityID">登录的社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPParameterSet.Delete(System.Int32,System.Byte,System.Int32,System.Int64)">
+            <summary>
+            删除一个指定的系统参数
+            </summary>
+            <remarks>只能删除社区相关的参数，不能删除全局参数</remarks>
+            <param name="communityIDByParam">社区标识</param>
+            <param name="paramID">参数标识</param>
+            <param name="communityID">登录的社区标识</param>
+            <param name="sysLogID">系统登录标识</param>
+            <returns>IRAP系统通用错误对象，如果其中的ErrCode：0-执行成功；非0执行失败</returns>
+        </member>
+        <member name="T:IRAPBase.IRAPSequence">
+            <summary>
+             序列管理类：包括申请、新增、重置序列
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPSequence.GetTransactNo">
+            <summary>
+            获取交易号
+            </summary>
+            <returns>long</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSequence.GetSysLogID">
+            <summary>
+            获取登录标识（SysLogID）
+            </summary>
+            <returns>long</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSequence.GetSequence(System.String,System.Int32)">
+            <summary>
+            通用获取序列号
+            </summary>
+            <param name="sequenceName">序列名称</param>
+            <param name="cnt">申请数量</param>
+            <returns>返回错误和序列值</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSequence.ResetSequence(System.String,System.Int64)">
+            <summary>
+            重置序列
+            </summary>
+            <param name="sequenceName">序列名</param>
+            <param name="startValue">重置的值</param>
+            <returns>返回1 重置成功，返回0 失败，（序列不存在）</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSequence.AddSequence(System.String,System.Int64)">
+            <summary>
+            在线新增序列
+            </summary>
+            <param name="sequenceName">序列名称</param>
+            <param name="initValue">初始值</param>
+            <returns>返回1 表示增加成功，返回0 失败（序列已存在）</returns>
+        </member>
+        <member name="T:IRAPBase.IRAPTreeBase">
+             <summary>
+            模块编号：02
+            作用：存取树万能类 
+            作者：张峰
+            编写日期：2019-03-1
+             </summary>
+        </member>
+        <member name="F:IRAPBase.IRAPTreeBase._communityID">
+            <summary>
+            社区标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.PK">
+            <summary>
+            社区号CommunityID*10000+TreID
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.Leaf">
+            <summary>
+            返回的叶实体，有可能为空使用时注意判断
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.LeafSet">
+             <summary>
+            根据社区和树标识查询的叶子集合
+             </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.NodeSet">
+            <summary>
+            根据社区和树标识查询的结点集合
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.ClassifySet">
+            <summary>
+            此叶结点的分类属性（多个分类属性按行存储）有可能为null注意判断
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.TransientSet">
+            <summary>
+            此叶结点瞬态属性（按行存储）有可能为null注意判断
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.TransientDict">
+            <summary>
+            获取瞬态属性的字典，键值为瞬态属性序号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.ClassifyDict">
+            <summary>
+            获取分类属性的字典，键值为分类属性序号
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeBase.StatusDict">
+            <summary>
+            获取分类属性的字典，键值为分类属性的序号
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.#ctor(IRAPBase.IDbContext,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="db">数据库上下文</param>
+            <param name="communityID">社区编号</param>
+            <param name="treeID">树标识</param>
+            <param name="leafID">结点标识</param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.TableSet(IRAPBase.Entities.BaseEntity)">
+            <summary>
+            根据实体类型获取存储对象DbSet,以便操作实体（增删改查）
+            </summary>
+            <param name="t">实体</param>
+            <returns>表集合DbSet对象</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SetLeafStatus(System.Int32)">
+            <summary>
+            设置树的叶状态
+            </summary>
+            <param name="leafStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.GetGenAttr``1">
+            <summary>
+            获取一般属性，所有一般属性必须继承BaseGenAttrEntity 使用者知道具体的子类型是什么
+            </summary>
+            <typeparam name="T">一般属性子类型</typeparam>
+            <returns>一般属性实体可能为空</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.GetRSAttr``1">
+            <summary>
+            获取行集属性，所有行集属性必须继承BaseRowAttrEntity 使用者知道具体的子类是什么
+            </summary>
+            <typeparam name="T">行集属性的子类型</typeparam>
+            <returns>通用错误IRAPError</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.GetTreeView">
+            <summary>
+            根据节点和叶子生成TreeView数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveAllAttr(System.Collections.Generic.List{IRAPBase.DTO.SaveAttrInputDTO})">
+            <summary>
+            保存一棵树所有属性(除行集属性外)
+            </summary>
+            <param name="paramList">属性列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.GetAllAttr(System.Int32)">
+            <summary>
+            获取树所有属性（从模型中获取）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveClassAttr(IRAPBase.DTO.TreeClassifyDTO[])">
+            <summary>
+            保存或修改分类属性
+            </summary>
+            <param name="dict">分类属性字典</param>
+            <returns>返回错误</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveClassAttr(System.Int32[])">
+            <summary>
+            根据参数位置保存或修改分类属性
+            </summary>
+            <param name="dict">分类属性值</param>
+            <returns>通用错误IRAPError</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveClassAttr(System.Int32,System.Int32)">
+            <summary>
+            保存或修改分类属性(允许设置分类属性为0)
+            </summary>
+            <param name="ordinal">分类属性序号</param>
+            <param name="dimLeaf">分类属性值</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveStatusAttr(System.Byte[])">
+            <summary>
+            保存和修改状态属性
+            </summary>
+            <param name="statusDict">状态属性值，参数位置代表状态属性序号</param>
+            <returns>通用错误IRAPError</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveStatusAttr(System.Int32,System.Byte)">
+            <summary>
+            保存和修改指定的状态属性
+            </summary>
+            <param name="ordinal">状态属性位置序号</param>
+             <param name="statusValue">状态属性值</param>
+            <returns>通用错误IRAPError</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveTransAttr(System.Int64[])">
+            <summary>
+            保存和修改瞬态属性
+            </summary>
+            <param name="dict">瞬态属性值，传参顺序表示瞬态属性序号</param>
+            <returns>通用错误IRAPError</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveTransAttr(System.Int32,System.Int64)">
+            <summary>
+            保存和修改瞬态属性
+            </summary>
+            <param name="ordinal">瞬态属性序号</param>
+            <param name="transValue">瞬态属性值</param>
+            <returns>通用错误IRAPError</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveGenAttr(IRAPBase.Entities.BaseGenAttrEntity)">
+            <summary>
+            保存和修改一般属性
+            </summary>
+            <param name="e">一般属性的实体</param>
+            <returns>通用错误IRAPError</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.SaveRSAttr(System.Type,System.Collections.Generic.List{IRAPBase.Entities.BaseRowAttrEntity})">
+            <summary>
+            删除并保存行集属性，处理逻辑是：先删除后插入
+            </summary>
+            <param name="type">行集类型（为了list传空值时判断表名）</param>
+            <param name="list">行集实体</param>
+            <returns>通用错误IRAPError</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.GetClassifyByOrdinal(System.Int32[])">
+            <summary>
+            获取第n级分类属性实体
+            </summary>
+            <param name="dimOrdinal">多级分类属性序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeBase.Commit">
+            <summary>
+            提交事务 以后不再使用，WebAPI方法中请使用IRAPBizBase中的Commit提交
+            </summary>
+        </member>
+        <member name="T:IRAPBase.IRAPGrant">
+            <summary>
+            权限管理
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPGrant.#ctor(System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="communityID"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPGrant.GetGrantListByTree(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取某棵树的权限清单
+            </summary>
+            <param name="treeID"></param>
+            <param name="agencyNode"></param>
+            <param name="roleNode"></param>
+            <param name="scenarioIndex">情景</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPLog.GetLogin(System.Int32,System.Int64)">
+            <summary>
+            获取登录日志
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="sysLogID">登录标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPLog.GetCommunityID(System.String)">
+            <summary>
+            sssss
+            </summary>
+            <param name="access_token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPSqlDBContext">
+            <summary>
+            SQLServer专用连接上下文类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPSqlDBContext.DataBase">
+            <summary>
+            数据库
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPSqlDBContext.GetObjectContext">
+            <summary>
+            上下文
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPSqlDBContext.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="dbConnectionStr">数据库连接，与配置文件中的key值对应</param>
+        </member>
+        <member name="M:IRAPBase.IRAPSqlDBContext.#ctor">
+            <summary>
+            创建数据库连接默认IRAPSqlDB这个连接
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPSqlDBContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>
+            模型创建时设置
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPSqlDBContext.GetSet(System.Type)">
+            <summary>
+            根据类型返回DbSet
+            </summary>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSqlDBContext.SaveChanges">
+            <summary>
+            保存数据库变化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSqlDBContext.RollBack">
+            <summary>
+            回滚事务
+            </summary>
+        </member>
+        <member name="T:IRAPBase.IRAPSystem">
+            <summary>
+            对系统进行管理类
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPSystem.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPSystem.GetSystemList(System.Int16)">
+            <summary>
+            获取所有系统清单(不带权限)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSystem.GetAvailableSystems(System.String,System.Int16)">
+            <summary>
+            获取可用系统（带权限）
+            </summary>
+            <param name="access_token"></param>
+            <param name="progLangID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSystem.AddASystem(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Byte[],System.String,System.Byte[],System.String)">
+            <summary>
+            新增一个系统
+            </summary>
+            <param name="SystemID">系统标识</param>
+            <param name="ProductNo">产品名(英文)</param>
+            <param name="VersionNo">版本号：例如V1.02 </param>
+            <param name="ProgLangID">编程语言标识 见视图 svw_ProgLanguages或调用GetProgLanguages方法</param>
+            <param name="MenuShowCtrl">菜单样式：1-横向菜单2-树菜单3-竖向手风琴菜单5-带tab页的风格7-竖向黑色主题</param>
+            <param name="MenuStyle"></param>
+            <param name="Author">作者</param>
+            <param name="Coauthor">合作者</param>
+            <param name="LogoPicPath">网页顶部banner路径</param>
+            <param name="LogoPic">网页顶部banner二进制流</param>
+            <param name="BGPicPath">登录背景图片路径</param>
+            <param name="BackgroundPic">登录背景图片二进制流</param>
+            <param name="DefaultAppServer">默认服务器</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSystem.GetASystem(System.Int32)">
+            <summary>
+            获取一个系统
+            </summary>
+            <param name="systemID">系统标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSystem.SaveSystem(IRAPBase.Entities.SystemEntity)">
+            <summary>
+            修改系统
+            </summary>
+            <param name="system">系统的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPSystem.GetProgLanguages">
+            <summary>
+            获取编程语言清单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPTreeCorr">
+            <summary>
+            对树的关联属性进行维护
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeCorr.CorrEntity">
+            <summary>
+            关联属性实体
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.#ctor(System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="corrID"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DefineTreeCorr">
+            <summary>
+            对实体CorrEntity进行修改，调用此方法保存
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.GetClassify">
+            <summary>
+            获取分类属性定义清单
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.GetTransient">
+            <summary>
+            获取瞬态属性定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.GetStatus">
+            <summary>
+            获取状态属性定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.GetStatusList(System.Int32)">
+            <summary>
+            获取第n状态属性定义清单
+            </summary>
+            <param name="ordinal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DefineClassify(System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            定义分类属性
+            </summary>
+            <param name="attrindex">分类属性序号</param>
+            <param name="attrTreeID">分类属性树标识</param>
+            <param name="attrName">分类属性名称</param>
+            <param name="forceModify">如果已存在是否强制修改</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DeleteClassify(System.Int32)">
+            <summary>
+            删除指定分类属性定义
+            </summary>
+            <param name="attrindex">属性序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DefineTransient(System.Int32,System.String,System.String,System.Byte,System.Boolean,System.Boolean)">
+            <summary>
+            定义瞬态属性
+            </summary>
+            <param name="attrindex">瞬态属性序号</param>
+            <param name="statName">瞬态属性名</param>
+            <param name="unitOfMeasure">度量单位</param>
+            <param name="scale">放大数量级</param>
+            <param name="protect">属性维护时是否可修改</param>
+            <param name="forceModify">强制修改定义</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DeleteTransient(System.Byte)">
+            <summary>
+            删除瞬态属性定义
+            </summary>
+            <param name="attrIndex">瞬态属性序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DefineStatus(System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            定义状态属性
+            </summary>
+            <param name="stateIndex">状态属性序号</param>
+            <param name="t5LeafID">第五课树叶标识</param>
+            <param name="protect">维护属性时是否能修改</param>
+            <param name="forceModify">如已存在强制修改</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DeleteStatus(System.Byte)">
+            <summary>
+            删除状态属性
+            </summary>
+            <param name="attrIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DefineStatusList(System.Int32,System.Int32,System.Collections.Generic.List{IRAPBase.DTO.TreeStatusModelRowDTO})">
+            <summary>
+            定义状态属性清单
+            </summary>
+            <param name="t5LeafID">状态叶标识</param>
+            <param name="ordinal">状态属性序号</param>
+            <param name="list">清单(删除后重新插入)</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.GetRowSet">
+            <summary>
+            获取行集属性定义
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.GetRowSetCols(System.Int32)">
+            <summary>
+            获取第n行集属性数据字典
+            </summary>
+            <param name="ordinal">第n行属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DefineRowSet(System.Byte,System.String,System.String,System.Boolean)">
+            <summary>
+            定义行集属性
+            </summary>
+            <param name="attrIndex">行集属性序号</param>
+            <param name="attrName">行集属性名称</param>
+            <param name="rsAttrTBLName">行集属性表名</param>
+            <param name="protect">是否保护(在界面中是否允许修改内容)</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorr.DeleteRowSetDefine(System.Int32)">
+            <summary>
+            删除行集属性的定义
+            </summary>
+            <param name="attrIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPTreeCorrSet">
+            <summary>
+            对树关联进行管理
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeCorrSet.TreeCorrList">
+            <summary>
+            关联属性清单
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeCorrSet.InstanceID">
+            <summary>
+            单实例
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorrSet.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorrSet.DeleteTreeCorrDefine(System.Int32)">
+            <summary>
+            删除树关联的定义
+            </summary>
+            <param name="corrID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeCorrSet.DefineTreeCorr(System.Int32,System.String,System.String,System.Int32[])">
+            <summary>
+            定义树关联
+            </summary>
+            <param name="treeCorrID">树关联标识，这里是正数</param>
+            <param name="corrAttrTBLName">关联一般属性</param>
+            <param name="corrAttrTBLNameEx">管理扩展一般属性</param>
+            <param name="trees">关联其他树数组</param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPTreeSet">
+            <summary>
+            访问IRAP树的通用类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.TreeID">
+            <summary>
+            树标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.PK">
+            <summary>
+            分区键
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.TreeModel">
+            <summary>
+            模型
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.LeafEntities">
+            <summary>
+            1.(标识)获取叶子集//叶子
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.NodeEntities">
+            <summary>
+            2.(标识/目录)获取节点集合 
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.NameSpaceEntities">
+            <summary>
+            3检索属性
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.ClassEntities">
+            <summary>
+            4分类属性
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.TransientEntities">
+            <summary>
+            5.瞬态属性
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeSet.Status">
+            <summary>
+            6.状态属性
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.#ctor(System.Int32,System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="treeID">树标识</param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.#ctor(IRAPBase.IDbContext,System.Int32,System.Int32)">
+            <summary>
+            有数据库上下文的构造函数
+            </summary>
+            <param name="db"></param>
+            <param name="communityID"></param>
+            <param name="treeID"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.TableSet(IRAPBase.Entities.BaseEntity)">
+            <summary>
+            获取数据库表集
+            </summary>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.GenAttr``1">
+            <summary>
+            此树的所有一般属性集合
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.RowSet``1">
+             <summary>
+            此树的第n个行集属性
+             </summary>
+             <typeparam name="T"></typeparam>
+             <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.TreeView(System.Int32,System.Boolean)">
+            <summary>
+            获取树视图（不带权限）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.TreeViewData(System.Int32,System.Boolean)">
+            <summary>
+            返回树的数据，支持懒加载 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.AccessibleTreeView(System.Int32,System.Int32)">
+            <summary>
+            获取树视图（带权限）
+            </summary>
+            <param name="agencyNode">机构标识（仅支持叶子）</param>
+            <param name="roleNode">角色标识（</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.AccessibleTreeView(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取树视图（带权限带入口结点）
+            </summary>
+            <param name="entryNode"></param>
+            <param name="agencyNode"></param>
+            <param name="roleNode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.AccessibleTreeView(System.String)">
+            <summary>
+            获取树视图（根据令牌）
+            </summary>
+            <param name="access_token">登录token</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.SubTreeNodes(System.Int32)">
+            <summary>
+            获取指定结点的结点集（不带权限）用于呈现树的懒加载
+            </summary>
+            <param name="nodeID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.SubTreeLeaves(System.Int32)">
+            <summary>
+            获取指定结点下面的叶集（不带权限） 用于呈现树的懒加载
+            </summary>
+            <param name="nodeID">入口结点</param>
+            <returns>叶清单</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.NewNode(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single)">
+            <summary>
+            新增节点或叶子
+            </summary>
+            <param name="fatherNode">父结点</param>
+            <param name="englishName">英文名称</param>
+            <param name="createBy">创建人</param>
+            <param name="nodeCode">结点代码</param>
+            <param name="alterNateCode">替代代码</param>
+            <param name="nodeName">结点名称</param>
+            <param name="udfOrdinal">位置序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.NewTreeNode(System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single)">
+            <summary>
+            新增结点或叶
+            </summary>
+            <param name="nodeType">结点类型：3-结点 4-叶子</param>
+            <param name="fatherNode">父结点标识</param>
+            <param name="nodeName">结点(叶)名称</param>
+            <param name="nodeCode">结点(叶)代码</param>
+            <param name="createBy">创建人代码</param>
+            <param name="alterNateCode">替代代码</param>
+            <param name="englishName">英文名称</param>
+            <param name="udfOrdinal">插入位置序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.ModifyTreeNode(System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single)">
+            <summary>
+            修改结点或叶子
+            </summary>
+            <param name="nodeType">结点类型：3-结点 4-叶子</param>
+            <param name="nodeID">结点标识</param>
+            <param name="nodeName">名称</param>
+            <param name="nodeCode">代码</param>
+            <param name="englishName">英文名称</param>
+            <param name="alternateCode">替代代码</param>
+            <param name="modifiedBy">修改人代码</param>
+            <param name="udfOrdinal">序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.DeleteTreeNode(System.Int32,System.Int32)">
+            <summary>
+            删除结点或叶子
+            </summary>
+            <param name="nodeType">结点类型：3-结点 4-叶子</param>
+            <param name="nodeID">结点标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.GetLeafSetByClassify(System.Int32,System.Int32)">
+            <summary>
+            根据指定分类属性获取叶子清单
+            </summary>
+            <param name="ordinal"></param>
+            <param name="cleafID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.GetClassifySet(System.Byte,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            根据叶子清单获取分类属性集合
+            </summary>
+            <param name="attrIndex">属性序号</param>
+            <param name="leafSet">叶子集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.GetLeafEntity(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            根据社区号,树标识，叶标识查询一个实体对象，找不到返回null
+            </summary>
+            <param name="communityID">社区编号</param>
+            <param name="treeID">树标识</param>
+            <param name="leafID">叶标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.GetLeafSetByCode(System.Int32,System.Int32,System.String)">
+            <summary>
+            根据Code模糊找出叶子清单
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="treeID">树标识</param>
+            <param name="code">代码</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeSet.GetLeafEntity(System.Int32)">
+            <summary>
+            根据叶标识查询实体
+            </summary>
+            <param name="leafID">叶标识</param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPTreeNodes">
+            <summary>
+            树基本数据结构
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.NodeID">
+            <summary>
+            结点标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.TreeViewType">
+            <summary>
+            树视图类型
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.NodeType">
+            <summary>
+            结点类型3-结点 4-叶子
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.NodeCode">
+            <summary>
+            结点代码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.AlternateCode">
+            <summary>
+            替代代码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.NodeName">
+            <summary>
+            结点名称
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.Parent">
+            <summary>
+            父结点标识
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.NodeDepth">
+            <summary>
+            结点深度
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.CSTRoot">
+            <summary>
+            权限控制点
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.UDFOrdinal">
+            <summary>
+            自定义遍历序
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.NodeStatus">
+            <summary>
+            结点状态-- =0 正常  =1 失效 小于0 未生效
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.Accessibility">
+            <summary>
+            可访问性  0=不可选  1=可单选  2=可复选
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.SelectStatus">
+            <summary>
+            选中状态  0=未选中  1=已选中
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.SearchCode1">
+            <summary>
+            第一检索码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.SearchCode2">
+            <summary>
+            第二检索码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.HelpMemoryCode">
+            <summary>
+            助记码
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.IconFile">
+            <summary>
+            图标文件名
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.IconImage">
+            <summary>
+            图标图像流
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.FatherNode">
+            <summary>
+            父结点（遍历用）
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPTreeNodes.Children">
+            <summary>
+            子结点清单(遍历用）
+            </summary>
+        </member>
+        <member name="T:IRAPBase.IRAPTreeModelSet">
+            <summary>
+            树建模，属性建模
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.#ctor(IRAPBase.IDbContext)">
+            <summary>
+            构造函数（带数据库上下文)以便调用者控制SaveChange()
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.GetNameID(System.String)">
+            <summary>
+            获取NameID
+            </summary>
+            <param name="nameDesc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.CreateATree(System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Byte,System.String,System.String,System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte)">
+            <summary>
+            创建一颗树
+            </summary>
+            <param name="treeID">树标识</param>
+            <param name="treeName">树名称</param>
+            <param name="leafLimit">叶数量上限</param>
+            <param name="depthLimit">深度上限</param>
+            <param name="shareToAll">是否为共享树</param>
+            <param name="treeType">树类型默认：2=一般树</param>
+            <param name="entityAttrTBName">一般属性表</param>
+            <param name="nodeAttrTBLName">结点属性表</param>
+            <param name="orderByMode">排序规则1-代码2-名称3-自定义</param>
+            <param name="entityCodeName">实体代码名称</param>
+            <param name="alternateCodeName">替代代码名称</param>
+            <param name="uniqueEntityCode">实体代码是否唯一</param>
+            <param name="uniqueNodeCode">结点代码是否唯一</param>
+            <param name="autoCodeGenerating">是否自动编码</param>
+            <param name="communityIndependent">社区独立性</param>
+            <param name="exclusiveLevel">是否排他</param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.GetATree(System.Int32)">
+            <summary>
+            获取一棵树
+            </summary>
+            <param name="treeID">树标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.SetEntityAttrTBName(System.Int32,System.String)">
+            <summary>
+            设置一般属性表名
+            </summary>
+            <param name="treeID"></param>
+            <param name="tblName"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.SetNodeAttrTBName(System.Int32,System.String)">
+            <summary>
+            设置结点属性表名
+            </summary>
+            <param name="treeID"></param>
+            <param name="attrTBName"></param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.SetEntityCodeName(System.Int32,System.String)">
+            <summary>
+            设置实体代码名称
+            </summary>
+            <param name="treeID">树标识</param>
+            <param name="name">实体名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.DeleteATree(System.Int32)">
+            <summary>
+            删除一棵树
+            </summary>
+            <param name="treeID">树标识</param>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.ModifyATree(System.Int32)">
+            <summary>
+            修改一棵树：使用GetATree获取一棵树实体，直接对实体进行修改，调用此方法保存
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPTreeModelSet.GetAllTrees">
+            <summary>
+            获取所有树清单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPUser">
+            <summary>
+            对单用户操作的类
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPUser.PK">
+            <summary>
+            分区键值CommunityID*10000
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPUser.User">
+            <summary>
+            此用户的实体对象
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.#ctor(System.String,System.Int64)">
+            <summary>
+            用户类的构造函数
+            </summary>
+            <param name="userCode">用户代码</param>
+            <param name="communityID">社区标识</param>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.Modify">
+            <summary>
+            修改用户的实体User调用此方法保存生效
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.Delete">
+            <summary>
+            删除此用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.GetAgencyList">
+            <summary>
+            获取此用户所属机构清单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.GetRoleList">
+            <summary>
+            获取此用户所属角色清单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.Login(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="clientID">渠道标识</param>
+            <param name="plainPWD">密码（明文）</param>
+            <param name="veriCode">验证码</param>
+            <param name="stationID">站点标识，如果是BS系统调用传CommunityID</param>
+            <param name="ipAddress">IP地址</param>
+            <param name="agencyLeaf">机构标识</param>
+            <param name="roleLeaf">角色标识</param>
+            <returns>返回信息DTO类</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.VerifyPWD(System.String)">
+            <summary>
+            验证密码类
+            </summary>
+            <param name="pwd">密码（明文）</param>
+            <returns>验证结果</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.GetBinaryPassword(System.String)">
+            <summary>
+            密码md5算法(用户密码加密默认此方法)
+            </summary>
+            <param name="passWord"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.GetBinaryPasswordDES(System.String)">
+            <summary>
+            DES加密算法
+            </summary>
+            <param name="passWord"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUser.GetBinaryPasswordAES(System.String)">
+            <summary>
+            AES算法
+            </summary>
+            <param name="passWord"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IRAPBase.IRAPUserSet">
+            <summary>
+            对用户的批量操作
+            </summary>
+        </member>
+        <member name="P:IRAPBase.IRAPUserSet.UserSet">
+            <summary>
+            用户集合
+            </summary>
+        </member>
+        <member name="M:IRAPBase.IRAPUserSet.#ctor(System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="communityID">社区标识</param>
+        </member>
+        <member name="M:IRAPBase.IRAPUserSet.AddUser(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="userCode">用户代码</param>
+            <param name="userName">用户名称</param>
+            <param name="passwd">密码（明文）</param>
+            <param name="agencyNodeList">机构清单用逗号隔开，例如：-1,-2,-3</param>
+            <param name="roleNodeList">角色清单用逗号隔开，例如：-4,-5,-6</param>
+            <returns>通用错误</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUserSet.AddUser(IRAPBase.Entities.IRAPUserEntity)">
+            <summary>
+            增加用户
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUserSet.ModifyUser(IRAPBase.Entities.IRAPUserEntity)">
+            <summary>
+            修改用户
+            </summary>
+            <param name="e">用户实体，此实体必须是从资料库中查出来的实体</param>
+            <returns>通用错误</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUserSet.DeleteUser(System.String)">
+            <summary>
+            删除指定用户
+            </summary>
+            <param name="userCode">用户代码</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUserSet.BatchImportUser(System.Collections.Generic.List{IRAPBase.Entities.IRAPUserEntity})">
+            <summary>
+            批量插入用户
+            </summary>
+            <param name="userList">用户清单</param>
+            <returns>IRAP通用错误</returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUserSet.GetUserEntityByCode(System.Int32,System.String)">
+            <summary>
+            根据用户代码查询用户实体对象
+            </summary>
+            <param name="communityID">社区标识</param>
+            <param name="userCode">用户代码</param>
+            <returns></returns>
+        </member>
+        <member name="M:IRAPBase.IRAPUserSet.GetUserListByAgency(System.Int32)">
+            <summary>
+            根据部门查找用户清单
+            </summary>
+            <param name="agencyLeaf"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
